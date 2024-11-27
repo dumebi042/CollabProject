@@ -1,4 +1,4 @@
-﻿You've created a new folder on your computer for "MyFirstProject." Navigate to this folder in your terminal or command prompt. 
+You've created a new folder on your computer for "MyFirstProject." Navigate to this folder in your terminal or command prompt. 
 To start tracking your project with Git, you need to initialize a new repository.
 Command: `git init`
 
@@ -16,8 +16,10 @@ Command: `git commit -m "Added MarkDown file"`
 Curious about what your commit history looks like, you decide to check it. 
 There's a command to display the history of your commits.
 Command: `git log`
-
-
+You've made more changes to `README.md` and also added a new file, `index.html`, to your project. 
+You want to stage all the changes you've made so far.
+Command: `git add .`
+git add README.md
 You've made more changes to `README.md` and also added a new file, `index.html`, to your project. 
 You want to stage all the changes you've made so far.
 Command: `git add .`
